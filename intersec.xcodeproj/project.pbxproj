@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E10F88F1410C5C4006937A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E10F88E1410C5C4006937A0 /* UIKit.framework */; };
+		8E10F8911410C5C4006937A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E10F8901410C5C4006937A0 /* Foundation.framework */; };
+		8E10F8931410C5C4006937A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E10F8921410C5C4006937A0 /* CoreGraphics.framework */; };
+		8E10F8991410C5C4006937A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E10F8971410C5C4006937A0 /* InfoPlist.strings */; };
+		8E10F89C1410C5C4006937A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10F89B1410C5C4006937A0 /* main.m */; };
+		8E10F89F1410C5C4006937A0 /* IntersecAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10F89E1410C5C4006937A0 /* IntersecAppDelegate.m */; };
+		8E10F8A21410C5C4006937A0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E10F8A01410C5C4006937A0 /* MainWindow.xib */; };
+		8E10F8A51410C5C4006937A0 /* IntersecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10F8A41410C5C4006937A0 /* IntersecViewController.m */; };
+		8E10F8A81410C5C4006937A0 /* intersecViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E10F8A61410C5C4006937A0 /* intersecViewController.xib */; };
+		8E10F8B01410C62B006937A0 /* MovableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10F8AF1410C62B006937A0 /* MovableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E10F88A1410C5C4006937A0 /* intersec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intersec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E10F88E1410C5C4006937A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E10F8901410C5C4006937A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E10F8921410C5C4006937A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E10F8961410C5C4006937A0 /* intersec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "intersec-Info.plist"; sourceTree = "<group>"; };
+		8E10F8981410C5C4006937A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E10F89A1410C5C4006937A0 /* intersec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "intersec-Prefix.pch"; sourceTree = "<group>"; };
+		8E10F89B1410C5C4006937A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E10F89D1410C5C4006937A0 /* IntersecAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntersecAppDelegate.h; sourceTree = "<group>"; };
+		8E10F89E1410C5C4006937A0 /* IntersecAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntersecAppDelegate.m; sourceTree = "<group>"; };
+		8E10F8A11410C5C4006937A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8E10F8A31410C5C4006937A0 /* IntersecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntersecViewController.h; sourceTree = "<group>"; };
+		8E10F8A41410C5C4006937A0 /* IntersecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntersecViewController.m; sourceTree = "<group>"; };
+		8E10F8A71410C5C4006937A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/intersecViewController.xib; sourceTree = "<group>"; };
+		8E10F8AE1410C62B006937A0 /* MovableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovableView.h; sourceTree = "<group>"; };
+		8E10F8AF1410C62B006937A0 /* MovableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E10F8871410C5C4006937A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E10F88F1410C5C4006937A0 /* UIKit.framework in Frameworks */,
+				8E10F8911410C5C4006937A0 /* Foundation.framework in Frameworks */,
+				8E10F8931410C5C4006937A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E10F87F1410C5C4006937A0 = {
+			isa = PBXGroup;
+			children = (
+				8E10F8941410C5C4006937A0 /* intersec */,
+				8E10F88D1410C5C4006937A0 /* Frameworks */,
+				8E10F88B1410C5C4006937A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E10F88B1410C5C4006937A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E10F88A1410C5C4006937A0 /* intersec.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E10F88D1410C5C4006937A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E10F88E1410C5C4006937A0 /* UIKit.framework */,
+				8E10F8901410C5C4006937A0 /* Foundation.framework */,
+				8E10F8921410C5C4006937A0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E10F8941410C5C4006937A0 /* intersec */ = {
+			isa = PBXGroup;
+			children = (
+				8E10F89D1410C5C4006937A0 /* IntersecAppDelegate.h */,
+				8E10F89E1410C5C4006937A0 /* IntersecAppDelegate.m */,
+				8E10F8A01410C5C4006937A0 /* MainWindow.xib */,
+				8E10F8A31410C5C4006937A0 /* IntersecViewController.h */,
+				8E10F8A41410C5C4006937A0 /* IntersecViewController.m */,
+				8E10F8A61410C5C4006937A0 /* intersecViewController.xib */,
+				8E10F8AE1410C62B006937A0 /* MovableView.h */,
+				8E10F8AF1410C62B006937A0 /* MovableView.m */,
+				8E10F8951410C5C4006937A0 /* Supporting Files */,
+			);
+			path = intersec;
+			sourceTree = "<group>";
+		};
+		8E10F8951410C5C4006937A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E10F8961410C5C4006937A0 /* intersec-Info.plist */,
+				8E10F8971410C5C4006937A0 /* InfoPlist.strings */,
+				8E10F89A1410C5C4006937A0 /* intersec-Prefix.pch */,
+				8E10F89B1410C5C4006937A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E10F8891410C5C4006937A0 /* intersec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E10F8AB1410C5C4006937A0 /* Build configuration list for PBXNativeTarget "intersec" */;
+			buildPhases = (
+				8E10F8861410C5C4006937A0 /* Sources */,
+				8E10F8871410C5C4006937A0 /* Frameworks */,
+				8E10F8881410C5C4006937A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = intersec;
+			productName = intersec;
+			productReference = 8E10F88A1410C5C4006937A0 /* intersec.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E10F8811410C5C4006937A0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8E10F8841410C5C4006937A0 /* Build configuration list for PBXProject "intersec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E10F87F1410C5C4006937A0;
+			productRefGroup = 8E10F88B1410C5C4006937A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E10F8891410C5C4006937A0 /* intersec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E10F8881410C5C4006937A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E10F8991410C5C4006937A0 /* InfoPlist.strings in Resources */,
+				8E10F8A21410C5C4006937A0 /* MainWindow.xib in Resources */,
+				8E10F8A81410C5C4006937A0 /* intersecViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E10F8861410C5C4006937A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E10F89C1410C5C4006937A0 /* main.m in Sources */,
+				8E10F89F1410C5C4006937A0 /* IntersecAppDelegate.m in Sources */,
+				8E10F8A51410C5C4006937A0 /* IntersecViewController.m in Sources */,
+				8E10F8B01410C62B006937A0 /* MovableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E10F8971410C5C4006937A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E10F8981410C5C4006937A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E10F8A01410C5C4006937A0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E10F8A11410C5C4006937A0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8E10F8A61410C5C4006937A0 /* intersecViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E10F8A71410C5C4006937A0 /* en */,
+			);
+			name = intersecViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E10F8A91410C5C4006937A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8E10F8AA1410C5C4006937A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		8E10F8AC1410C5C4006937A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "intersec/intersec-Prefix.pch";
+				INFOPLIST_FILE = "intersec/intersec-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E10F8AD1410C5C4006937A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "intersec/intersec-Prefix.pch";
+				INFOPLIST_FILE = "intersec/intersec-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E10F8841410C5C4006937A0 /* Build configuration list for PBXProject "intersec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E10F8A91410C5C4006937A0 /* Debug */,
+				8E10F8AA1410C5C4006937A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E10F8AB1410C5C4006937A0 /* Build configuration list for PBXNativeTarget "intersec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E10F8AC1410C5C4006937A0 /* Debug */,
+				8E10F8AD1410C5C4006937A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E10F8811410C5C4006937A0 /* Project object */;
+}
